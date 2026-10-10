@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GlowCare - Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>GlowCare</h1>
+
+    <div class="form-box">
+        <h2>Write a Review</h2>
+
+        <input type="number" id="productId" placeholder="Product ID">
+
+        <input type="number" id="userId" placeholder="User ID">
+
+        <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5">
+
+        <input type="text" id="comment" placeholder="Write your review">
+
+        <button onclick="addReview()">Submit Review</button>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

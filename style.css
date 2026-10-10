@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #fff5f8;
+}
+
+header {
+    background-color: #ffb6c1;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+}
+
+.hero h2 {
+    font-size: 35px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.page-title {
+    text-align: center;
+    margin: 30px;
+}
+
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: white;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+}
+.form-box {
+    width: 300px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+.form-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+}
+
+.form-box button {
+    margin: 10px;
+}
